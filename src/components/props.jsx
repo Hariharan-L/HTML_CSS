@@ -1,9 +1,9 @@
 import React from "react";
-
+import "../external.css";
 const Prop = (props) =>{
   return(
-    <div className="bg-blue-500 text-white p-4">
-      <h2>
+    <div >
+      <h2 className="color-change">
         This is my name: {props.name}
       </h2>
     </div>

@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.color-change {
+  color: #f7cd5d;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  background-color: rgb(28, 166, 185);
+  position: relative;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.nav li a {
+  font-weight: 400;
+  font-size: 1.4em;
+  color: var(--nav);
+  text-decoration: none;
+}
+.Content-router {
+  text-align: center;
+  color: whitesmoke;
+}
